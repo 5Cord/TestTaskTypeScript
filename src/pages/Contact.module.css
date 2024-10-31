@@ -1,0 +1,154 @@
+.container {
+    width: 1200px;
+    height: 1281px;
+    background-color: #D9D9D9;
+}
+
+.company-name {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.contact-button {
+    background-color: #2C2C2C;
+    color: #F5F5F5;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-section {
+    width: 1200px;
+    height: 848px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text {
+    font-family: Inter, sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #D9D9D9;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.submit-button {
+    background-color: #2C2C2C;
+    color: #F5F5F5;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.pageContainer {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+}
+
+form {
+    padding: 2%;
+    margin: 0 auto;
+    width: 20%;
+    background-color: white;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+
+form input {
+    padding: 10px 0px 10px 12px;
+    border: 1px solid #D9D9D9;
+    border-radius: 9px;
+    background-color: white;
+    font-size: 16px;
+    color: #1E1E1E;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form textarea {
+    padding: 10px 0px 10px 12px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    color: #1E1E1E;
+    outline: none;
+    transition: border-color 0.3s;
+    resize: vertical;
+
+}
+
+
+form input:focus {
+    border-color: #2C2C2C;
+    box-shadow: 0 0 5px rgba(44, 44, 44, 0.5);
+}
+
+form textarea:focus {
+    border-color: #2C2C2C;
+    box-shadow: 0 0 5px rgba(44, 44, 44, 0.5);
+}
+
+form span {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.input {
+    box-sizing: border-box;
+    padding: 10px 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pageContainer h1 {
+    text-align: center;
+    /* padding: 100px; */
+    font-size: 300%;
+}
+
+.btnSubm {
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.underFooter {
+    background-color: rgb(44, 44, 44);
+    height: 150px;
+}

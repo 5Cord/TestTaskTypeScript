@@ -1,0 +1,113 @@
+.pageContainer {
+    width: 1200px;
+    margin: auto;
+}
+
+.contactLink {
+    text-decoration: none;
+    color: #1E1E1E;
+    /* Цвет текста ссылки */
+    font-weight: bold;
+}
+
+.main {
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.mainPoster {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    padding: 40px;
+}
+
+.videoPlaceholder {
+    width: 50%;
+    height: 235px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0;
+}
+
+.sectionTitleMidlleBlock {
+    font-size: 220%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.sectionText {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: #F5F5F5;
+    padding: 40px;
+    text-align: center;
+}
+
+.mainPoster span {
+    width: 37%;
+}
+
+.mainPoster h1 {
+    font-size: 300%;
+}
+
+.midlleBlockFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.midlleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midlleBlock span {
+    flex: 1 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+.underBlock {
+    text-align: center;
+    background-color: rgb(236, 234, 234);
+    padding: 6%;
+}
+
+.underBlock h2 {
+    font-size: 300%;
+}
+
+.linckContactUs {
+    color: white;
+    background-color: rgb(44, 44, 44);
+    padding: 0.5% 5%;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.headFooter {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.btnCU {
+    text-align: center;
+    width: 100%;
+    margin: 4%;
+}

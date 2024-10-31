@@ -1,0 +1,19 @@
+.footer {
+    width: 1200px;
+    height: 197px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.headFooter {
+    font-size: 150%;
+}
