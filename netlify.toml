@@ -1,0 +1,6 @@
+[build]
+  functions = "functions"
+
+
+[dev]
+  command = "npm run dev" # Команда для запуска вашего приложения
